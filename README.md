@@ -86,7 +86,7 @@ npm run build
 npm run preview
 
 📝 License
-MIT License © [Your Name]
+MIT License © Mariwan
 
 🤝 Contributing
 Fork the project
