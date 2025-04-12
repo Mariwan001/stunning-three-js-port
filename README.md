@@ -1,12 +1,103 @@
-# React + Vite
+Stunning Portfolio Website 🚀
+A modern, responsive portfolio website built with React + Vite, featuring smooth animations, dark/light theme, and email integration.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+🎨 Modern UI/UX with Tailwind CSS
+🌓 Dark/Light theme support
+📧 Contact form with EmailJS integration
+🚀 Smooth scroll animations
+📱 Fully responsive design
+⚡ Fast loading with Vite
+🎬 Custom animations and transitions
+🔍 SEO optimized
+🛠️ Tech Stack
+React 18
+Vite
+Tailwind CSS
+EmailJS
+Framer Motion
+React Icons
+React Router
 
-Currently, two official plugins are available:
+ 🚀 Quick Start
+ # Clone the repository
+git clone https://github.com/yourusername/stunning-portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Navigate to project directory
+cd stunning-portfolio
 
-## Expanding the ESLint configuration
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Start development server
+npm run dev
+
+🔧 Environment Variables
+Create a .env file in the root directory:
+
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+
+📂 Project Structure
+stunning-portfolio/
+├── public/
+│   ├── assets/
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   ├── sections/
+│   ├── constants/
+│   ├── styles/
+│   └── App.jsx
+├── .env
+├── index.html
+└── package.json
+
+🎨 Customization
+Colors
+Edit tailwind.config.js to customize your color scheme:
+
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        primary: "#007AFF",
+        secondary: "#64748B",
+        // Add your colors
+      }
+    }
+  }
+}
+
+📱 Responsive Design
+Mobile-first approach
+Breakpoints:
+sm: 640px
+md: 768px
+lg: 1024px
+xl: 1280px
+
+🚀 Deployment
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+📝 License
+MIT License © [Your Name]
+
+🤝 Contributing
+Fork the project
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit changes (git commit -m 'Add AmazingFeature')
+Push to branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+
+📞 Contact
+GitHub - @mariwan001
+Email - sehadmarewan@gmail.com
+Made with ❤️ by Mariwan
+
+Don't forget to ⭐ this repository if you found it helpful!
